@@ -17,5 +17,14 @@
       "link": "https://www.synacor.com/about-us/",
       "title": "About Us"
     }
+  ],
+  "legalLinks": [
+    {
+      "link": "",
+      "title": "Privacy Policy"
+    },
+    {
+      "title": "Terms of Service"
+    }
   ]
 }
