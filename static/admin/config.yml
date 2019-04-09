@@ -5,12 +5,10 @@ backend:
 media_folder: static/assets
 
 collections:
-  - name: blog
-    label: Blog
-    folder: blog
+  - name: "home"
+    label: "Home"
+    folder: "_pages/home"
     create: true
     fields:
-      - { name: path, label: Path }
-      - { name: date, label: Date, widget: date }
-      - { name: title, label: Title }
-      - { name: body, label: Body, widget: markdown }
+      - { name: "title", label: "Title", widget: "string"}
+      - { name: "headline", label: "Headline", widget: "string" }
