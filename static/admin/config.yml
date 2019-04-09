@@ -22,3 +22,9 @@ collections:
         fields:
             - { name: "link", label: "link", widget: "string" }
             - { name: "title", label: "title", widget: "string" }
+      - name: "legalLinks"
+        label: "Legal Links"
+        widget: "list"
+        fields:
+            - { name: "link", label: "link", widget: "string" }
+            - { name: "title", label: "title", widget: "string" }
