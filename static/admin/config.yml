@@ -11,5 +11,14 @@ collections:
     extension: "json"
     create: true
     fields:
-      - { name: "title", label: "Language", widget: "string"}
+      - { name: "title", label: "Language", widget: "select" options: ["en"]}
       - { name: "headline", label: "Headline", widget: "string" }
+      - { name: "tagline", label: "Tagline", widget: "string" }
+      - { name: "valPropHeadline", label: "Value Proposition Headline", widget: "string" }
+      - { name: "valPropBody", label: "Value Proposition Body", widget: "text" }
+      - name: "companyLinks"
+        label: "Company Links"
+        widget: "list"
+        fields:
+            - { name: "link", label: "link", widget: "text" }
+            - { name: "title", label: "title", widget: "text" }
