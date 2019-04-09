@@ -8,7 +8,8 @@ collections:
   - name: "home"
     label: "Home"
     folder: "_pages/home"
+    extension: "json"
     create: true
     fields:
-      - { name: "title", label: "Title", widget: "string"}
+      - { name: "title", label: "Language", widget: "string"}
       - { name: "headline", label: "Headline", widget: "string" }
