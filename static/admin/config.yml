@@ -20,5 +20,5 @@ collections:
         label: "Company Links"
         widget: "list"
         fields:
-            - { name: "link", label: "link", widget: "text" }
-            - { name: "title", label: "title", widget: "text" }
+            - { name: "link", label: "link", widget: "string" }
+            - { name: "title", label: "title", widget: "string" }
