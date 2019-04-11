@@ -7,7 +7,7 @@ media_folder: static/assets
 collections:
   - name: "home"
     label: "Home"
-    folder: "static/pages/home"
+    folder: "static/6e569e05cb6f8608572c79d63b365dc31617bf84d7393d2cb9d2f1ffe0edf95b/pages/home"
     extension: "json"
     create: true
     fields:
