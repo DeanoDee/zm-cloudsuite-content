@@ -28,3 +28,20 @@ collections:
         fields:
             - { name: "link", label: "link", widget: "string" }
             - { name: "title", label: "title", widget: "string" }
+  - name: "setupwelcome"
+    label: "Set Up Welcome"
+    folder: "static/6e569e05cb6f8608572c79d63b365dc31617bf84d7393d2cb9d2f1ffe0edf95b/pages/setupwelcome"
+    extension:"json"
+    create: true
+    fields:
+      - { name: "title", label: "Language", widget: "select", options: ["en"]}
+      - { name: "headline", label: "Headline", widget: "string" }
+      - { name: "tagline", label: "Tagline", widget: "string" }
+      - { name "organizationFieldLabel", label: "Organization Field Label", widget: "string"}
+      - { name "organizationFieldHint", label: "Organization Field Hint", widget: "string"}
+      - { name "fNameFieldLabel", label: "First Name Field Label", widget: "string"}
+      - { name "fNameFieldHint", label: "First Name Field Hint", widget: "string"}
+      - { name "lNameFieldLabel", label: "Last Name Field Label", widget: "string"}
+      - { name "lNameFieldHint", label: "Last Name Field Hint", widget: "string"}
+      - { name "nextButtonLabel", label: "Next Button Label", widget: "string"}
+    
